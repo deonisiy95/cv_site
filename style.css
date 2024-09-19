@@ -131,7 +131,12 @@ strong {
 .electron:before {
     background-image: url('./images/electronjs.svg');
 }
-
+.remix:before {
+    background-image: url('./images/remix.svg');
+}
+.graphql:before {
+    background-image: url('./images/graphql.svg');
+}
 
 .box_right p {
     white-space: pre-line;
@@ -156,6 +161,11 @@ strong {
     margin-bottom: 24px;
 }
 
+.box_top h3 {
+    font-size: 1em;
+    margin-bottom: 0.2em;
+}
+
 .workStage {
     padding: 2px 16px 8px 28px;
     margin-bottom: 16px;
@@ -171,10 +181,10 @@ strong {
     content: '';
     width: 1px;
     background-color: var(--icon-color);
-    height: 100px;
+    height: calc(100% - 14px);
     position: absolute;
     left: -8px;
-    top: 32px;
+    top: 34px;
 }
 
 .workStage > div {
@@ -185,7 +195,7 @@ strong {
     font-family: Roboto, Arial, sans-serif;
 }
 
-.jivo, .blogman, .samokat {
+.jivo, .blogman, .samokat, .vk {
     position: absolute;
     left: -24px;
     top: 0;
@@ -207,6 +217,16 @@ strong {
 .samokat {
     content: '';
     background-image: url('./images/samokat.svg');
+    background-repeat: no-repeat;
+    background-size: 32px;
+    width: 32px;
+    height: 32px;
+    margin: 3px 0;
+}
+
+.vk {
+    content: '';
+    background-image: url('./images/vk.svg');
     background-repeat: no-repeat;
     background-size: 32px;
     width: 32px;
